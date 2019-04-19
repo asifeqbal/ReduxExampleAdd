@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { sayHello,addItem } from '../Action/Action'
+import { sayHello,addItem,sayHI } from '../Action/Action'
 
 let Button = ({ whatsUp, stateObject, saySomething,add }) => (
   <div >
@@ -10,7 +10,7 @@ let Button = ({ whatsUp, stateObject, saySomething,add }) => (
     {/* <h1>{stateObject.Count}</h1> */}
   </div>
 )
-
+//Method to Update maping between
 const mapStateToProps = (state) => ({
   whatsUp: state.say,
   stateObject: state

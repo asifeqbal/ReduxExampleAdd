@@ -9,3 +9,7 @@ export const sayHello = () => ({
 export const addItem = () => ({
     type: "ADD_ITEM"
 })
+
+export const sayHI=() =>({
+    type: "SAY_HI"
+})
